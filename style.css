@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+div{
+    border: 1px solid black;
+}
+.logo{
+    width: 20%;
+    height: 5%;
+    border: 1px solid black;
+}
+.imgUser{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+}
