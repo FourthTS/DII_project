@@ -5,6 +5,7 @@ body{
 }
 div{
     border: 1px solid black;
+    
 }
 .logo{
     width: 20%;
@@ -26,4 +27,7 @@ p{
     text-overflow: ellipsis;
     margin: 0;
     padding: 0;
+}
+.searchingBar{
+    width: 90%;
 }

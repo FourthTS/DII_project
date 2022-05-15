@@ -3,48 +3,91 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Seller Shop</title>
   </head>
-  <body> 
+  <body>
+      <!--Web Head-->
     <div class="wedHeard pb-3 border-bottom">
-        <div class="d-flex justify-content-between mt-3">
-            <div class="logo flex-grow-2 ms-3 ">
-                <img src="" alt="LOGO Area">
-            </div>
-            <div class="d-flex align-items-center justify-content-evenly me-3">
-                <div class="userName me-3  flex-fill flex-grow-0">
-                    <h6>UserName : tanachard</h6>
-                    <p>ID :</p>
-                </div>
-                <div class="imgUser flex-fill">
-                    <img src="https://media.istockphoto.com/vectors/creative-vector-illustration-of-pixel-glasses-thug-life-meme-isolated-vector-id1129167962?k=20&m=1129167962&s=612x612&w=0&h=RQ7_7nnv4Sv4fuq3crB_vERbVSG1Jd9ppNikWE8p8BM=">
-                </div>
-            </div>
+      <div class="d-flex justify-content-between mt-3">
+        <div class="logo flex-grow-2 ms-3">
+          <img src="" alt="LOGO Area" />
         </div>
+        <div class="d-flex align-items-center justify-content-evenly me-3">
+          <div class="userName me-3 flex-fill flex-grow-0">
+            <p>UserName : tanachard</p>
+            <p>ID :</p>
+          </div>
+          <div class="imgUser flex-fill">
+            <img
+              src="https://media.istockphoto.com/vectors/creative-vector-illustration-of-pixel-glasses-thug-life-meme-isolated-vector-id1129167962?k=20&m=1129167962&s=612x612&w=0&h=RQ7_7nnv4Sv4fuq3crB_vERbVSG1Jd9ppNikWE8p8BM="
+            />
+          </div>
+        </div>
+      </div>
     </div>
-
+    <!--Web NavBar-->
     <div class="navBar row border-bottom border-top">
-        <div class="col-5">
-            
-        </div>
-        <div class="col-4">
-            
-        </div>
-        <div class="col-3">
-
-        </div>
+      <div class="col-5">
+        <nav class="navbar navbar-expand-lg">
+          <div class="menuBar w-100">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">menu1</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">menu2</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">menu3</a>
+                </li>
+                <li class="nav-item pe-3">
+                  <a class="nav-link" href="#">menu4</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-4"></div>
+      <div class="col-3 pe-3">
+        <nav class="navbar">
+          <div class="searchingBar">
+            <form class="d-flex justify-content-end" role="search">
+              <input class="form-control me-4" type="search" placeholder="Search"aria-label="Search"/>
+              <button class="btn btn-outline-dark" type="submit">
+                <i class="bi bi-cart"></i>
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
