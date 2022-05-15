@@ -3,14 +3,14 @@ body{
     padding: 0;
     border: 0; 
 }
-div{
+/*div{
     border: 1px solid black;
     
-}
+}*/
 .logo{
-    width: 20%;
-    height: 5%;
-    border: 1px solid black;
+    width: 15%;
+    margin: 0;
+    padding: 0;
 }
 .imgUser{
     width: 70px;
